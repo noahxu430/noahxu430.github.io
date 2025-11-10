@@ -1,0 +1,80 @@
+---
+title: "老婆偷偷和老公去成都"
+output: 
+  html_document
+---
+
+<head>
+     <meta charset="UTF-8">
+     <title>图片翻转</title>
+     <link rel="stylesheet" href="图片翻转.css">
+ </head>
+ 
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/chengdu/1.jpg" alt=""></div>
+   <div class="box back"><h2>和老婆在去成都的高铁上，老公在合照的时候走神啦，被老婆疯狂嘲笑</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/chengdu/13.jpg" alt=""></div>
+   <div class="box back"><h2>老公非要上ifs的顶楼看看大熊猫</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/chengdu/2.jpg" alt=""></div>
+   <div class="box back"><h2>老婆的人民公园游客照</h2></div>
+  </div>  
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/chengdu/3.jpg" alt=""></div>
+   <div class="box back"><h2>人民公园喝茶+嗑瓜子套餐</h2></div>
+  </div>  
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/chengdu/4.jpg" alt=""></div>
+   <div class="box back"><h2>老婆在锦鲤开启了自拍模式</h2></div>
+  </div>  
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/chengdu/5.jpg" alt=""></div>
+   <div class="box back"><h2>老婆开始发现老公是老婆的人肉自拍杆了，老婆正在强迫老公坐过来，sad</h2></div>
+  </div>  
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/chengdu/6.jpg" alt=""></div>
+   <div class="box back"><h2>老婆用老公牌人肉自拍杆拍了一张满意的自拍</h2></div>
+  </div>  
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/chengdu/7.jpg" alt=""></div>
+   <div class="box back"><h2>老婆用老公牌人肉自拍杆拍了一张满意的合照</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/chengdu/8.jpg" alt=""></div>
+   <div class="box back"><h2>我们留下的定情锁哦，老公明年回去还要去那里找到它</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/chengdu/9.jpg" alt=""></div>
+   <div class="box back"><h2>老婆离开了锦里，拍了很多风景照</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/chengdu/10.jpg" alt=""></div>
+   <div class="box back"><h2>老婆半夜还要再去吃一次月满大江，我们在全家买了很多喝的，老公像过冬的松鼠</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/chengdu/11.jpg" alt=""></div>
+   <div class="box back"><h2>真正的月满大江，完爆宝鸡月满大江</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/chengdu/12.jpg" alt=""></div>
+   <div class="box back"><h2>我们坐飞机离开成都啦，老婆一整天都在补工图，回西安还在gbox补到很晚</h2></div>
+  </div>
+ </div>
+ </div> 
+ 

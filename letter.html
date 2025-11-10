@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>letter.knit</title>
+
+<script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="xian.html">西安</a>
+</li>
+<li>
+  <a href="baoji.html">宝鸡/咸阳</a>
+</li>
+<li>
+  <a href="chengdu.html">成都</a>
+</li>
+<li>
+  <a href="hangzhou.html">杭州</a>
+</li>
+<li>
+  <a href="hainan.html">海南</a>
+</li>
+<li>
+  <a href="guangzhou.html">广州</a>
+</li>
+<li>
+  <a href="wechat.html">
+    <span class="fa fa-weixin fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="letter.html">
+    <span class="fa fa-birthday-cake fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="kiss.html">
+    <span class="fa fa-kiss-beam fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<head>
+<meta charset="UTF-8">
+<title>
+图片翻转
+</title>
+<link rel="stylesheet" href="图片翻转.css">
+</head>
+<div id="老婆好" class="section level3">
+<h3>老婆好！</h3>
+<p>      这里是老公!
+老婆从现在开始就正式和老公一样大啦。刚开始和老婆分开的时候老婆真的好伤心，老公很怕老婆挺不过来，但是现在老婆已经慢慢习惯啦，可是老公发现自己跟老婆分开的越久，心里就越想老婆，老公已经快要记不清每天帮老婆背那个该死的老往下滑的包包的感觉了。老婆跟老公在一起的时候总是能记得天气和季节什么的，老公就只记得老婆的心情好坏，还有遇到了什么难忘的事情。老公记得那天老婆从机场走掉了，老公之前自己也不知道到了那个时候心里会怎么想，但是那天老婆消失在安检的墙后面以后，老公才意识到很久都不会能天天见到老婆了，老公就觉得心里空落落的，哪怕能让老公天天见到生气的老婆，想着怎么哄好老婆，也比什么都不剩了强。</p>
+<p>     
+老公很依赖老婆，老婆那天让老公说老公依赖老婆什么，老公觉得老婆在老公的心情自己就会变得非常好，而且老婆会帮助老公也看到生活的其他样子，让老公枯燥的生活丰富一下。老公还觉得老公十分依赖老婆依赖老公，因为老婆依赖老公，老公很喜欢老婆，老公就很喜欢老婆多依赖老公的那种感觉，所以老公也依赖这种感觉啦。老公的表达很烂，老婆需要理解理解。</p>
+<p>     
+老公一直不太会表达对老婆的喜欢，但是老婆喜欢老公多表达，老公刚刚就稍微表达一丢丢哦。老公希望老婆开开心心的过生日，可惜老公在第一个生日就缺席了。badbad。</p>
+<p>     
+现在离老婆的雅思也越来越近啦，老婆要记得每天最好抽出一点点时间练练听力，最好再跟读一下练练口语，而且口语也得单独多练，最重要的是老婆已经背完的那些单词，老婆要再至少复习三遍，不然到时候基本都会忘了。这周老婆过生日，可以最后再疯狂玩耍一下，老婆要有仪式感哦，要去跟阿姨把蛋糕买上，蜡烛要点，最后许上老婆的小心愿。周末老婆也跟老婆的朋友去玩儿玩儿，吃吃喝喝，老公盲猜老婆要去吃老婆最爱的火锅，然后呱唧呱唧谝一谝闲传，把下周之后的闲传都谝完，下周就能好好学习啦。</p>
+<p>     
+还有老婆最重要的吃饭饭问题，老婆本来胃就不好，还喜欢吃火锅，吃辣的，吃油的，吃饭不规律，不吃菜，很少吃水果，吃的量还很少。跟吃饭沾边的习惯老婆没有一个好的。老婆再不改的话以后要做胃镜啦，老婆最怕的胃镜。老公也在练习做饭啦，争取以后多多给老婆做饭饭，比老婆爱在外面吃的都好吃，但是老婆在跟老公结婚同居之前还得克制一下馋馋的嘴嘴哦。老婆还要记得把那个牙牙的号赶紧挂了，早早解决了，留着总是不好的。</p>
+<p>     
+老婆前一阵子心情不太好，先是很惆雅思的事情。然后又觉得没有别人优秀，还害怕没有学校录老婆。老公觉得都是不可能的啦，老婆也是一个优秀的娃娃，老婆学的东西老公看到就头疼，所以大家也都知道很不容易啦，老婆的就业也是一片光明，比文科生好多啦。老婆的情绪也很容易被影响，老婆被影响情绪只有害处，老婆就想着生气也没啥用，啥都解决不了，遇到生气的事情不理会就行了，不会把老婆怎么样，遇到生气的人老婆反正跟他们不是一个世界的，老婆替他们默哀一下，以后他们会吃亏的。</p>
+<p>     
+最后老公到了美国之后应该惹老婆生了不少气气，老公印象最深的还是那次答应燕妮辅导数学那次，还有抽烟那次。老公也希望能提高一下解决问题的能力，更希望再也不惹老婆生气啦。这两次老公表现都极差，一开始态度也带着气气，老婆还夸老公情绪稳定呢，老公觉得这方面还有待改进！老婆千万不要被老公伤到心心啦，老公说的都是气话。</p>
+<p>     
+老婆生日快乐！老公希望老婆每天都很开心！老公也是想到啥就写啥，老婆忍受一下老公的流水账。老婆冲冲冲！老婆录取全中！老婆cute！老婆yyds！老婆永远是老公的最爱！</p>
+<p>(爱老婆的)老公</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

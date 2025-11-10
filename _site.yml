@@ -1,0 +1,26 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "西安"
+      href: xian.html
+    - text: "宝鸡/咸阳"
+      href: baoji.html
+    - text: "成都"
+      href: chengdu.html
+    - text: "杭州"
+      href: hangzhou.html
+    - text: "海南"
+      href: hainan.html
+    - text: "广州"
+      href: guangzhou.html
+    - icon: fa-weixin fa-lg
+      href: wechat.html
+    - icon: fa-birthday-cake fa-lg
+      href: letter.html
+    - icon: fa-kiss-beam fa-lg
+      href: kiss.html
+output:
+  html_document:
+    theme: journal

@@ -1,0 +1,13 @@
+---
+output: html_document
+---
+
+## 老公索要一个电子亲亲证，unlimited版本
+
+<head>
+     <meta charset="UTF-8">
+     <title>图片翻转</title>
+     <link rel="stylesheet" href="图片翻转.css">
+ </head>
+
+![](image/qq.gif)

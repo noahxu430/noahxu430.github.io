@@ -1,0 +1,55 @@
+---
+title: "老公最后的几天来杭州找老婆玩儿"
+output: 
+  html_document
+---
+
+<head>
+     <meta charset="UTF-8">
+     <title>图片翻转</title>
+     <link rel="stylesheet" href="图片翻转.css">
+ </head>
+ 
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hangzhou/1.jpg" alt=""></div>
+   <div class="box back"><h2>老公一大早就出发啦，在机场休息室吃的早饭饭</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hangzhou/2.jpg" alt=""></div>
+   <div class="box back"><h2>老公在西湖拍的老婆，老婆后来极力把它删掉了，但是老公早就留了一手</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hangzhou/3.jpg" alt=""></div>
+   <div class="box back"><h2>老公强迫老婆竖大拇指拍照，跟胥哥小明在北京学的</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hangzhou/4.jpg" alt=""></div>
+   <div class="box back"><h2>老婆非要让老公拍一张老婆的侧颜，老公直接交出满分答卷。老婆的手手上还有个蚊子叮的大包</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hangzhou/5.jpg" alt=""></div>
+   <div class="box back"><h2>我们在酒店舒服的边看剧边吃豪华外卖</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hangzhou/6.jpg" alt=""></div>
+   <div class="box back"><h2>老婆强迫老公举手机，老公另一只手偷拍，老婆一边按拍照一边骂人</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hangzhou/7.jpg" alt=""></div>
+   <div class="box back"><h2>老婆给我妈买的南宋胡记，买了很多白娘子饼好像，其实老公觉得很一般啦，当时没有告诉老婆</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hangzhou/8.jpg" alt=""></div>
+   <div class="box back"><h2>老婆在盛捷p图，老公偷拍，牛牛在旁边瘫着</h2></div>
+  </div>  
+ </div>
+ </div> 
+ 

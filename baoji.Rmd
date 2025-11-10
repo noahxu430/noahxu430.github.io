@@ -1,0 +1,183 @@
+---
+title: "老公和老婆的宝鸡游"
+output: 
+  html_document
+---
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>图片翻转</title>
+
+<link rel="stylesheet" href="图片翻转.css">
+
+</head>
+
+<div class="piclist">
+
+::: picbox
+::: {.box .front}
+<img src="image/baoji/1.jpg"/>
+:::
+
+::: {.box .back}
+<h2>和老婆去宝鸡前在砂之船奥莱买的，老婆吃完烤鱼生气气了</h2>
+:::
+:::
+
+<div class="piclist">
+
+::: picbox
+::: {.box .front}
+<img src="image/baoji/2.jpg"/>
+:::
+
+::: {.box .back}
+<h2>到宝鸡的第一天！老婆和老公开车去溜达了，晚上很黑，像小村子</h2>
+:::
+:::
+
+<div class="piclist">
+
+::: picbox
+::: {.box .front}
+<img src="image/baoji/3.jpg"/>
+:::
+
+::: {.box .back}
+<h2>老婆在宝鸡美豪的一张可爱的自拍，老婆还教育了老公走的时候不应该告诉服务员不再来宝鸡了</h2>
+:::
+:::
+
+<div class="piclist">
+
+::: picbox
+::: {.box .front}
+<img src="image/baoji/4.jpg"/>
+:::
+
+::: {.box .back}
+<h2>和老婆入住宝鸡皇冠啦！老婆很喜欢，所以取消了一天咸阳，胥了一天宝鸡</h2>
+:::
+:::
+
+<div class="piclist">
+
+::: picbox
+::: {.box .front}
+<img src="image/baoji/5.jpg"/>
+:::
+
+::: {.box .back}
+<h2>老婆在皇冠沙发上疯狂玩儿老公的ins，这张照片老公发到ins上啦</h2>
+:::
+:::
+
+<div class="piclist">
+
+::: picbox
+::: {.box .front}
+<img src="image/baoji/6.jpg"/>
+:::
+
+::: {.box .back}
+<h2>老婆的另一张ins傻傻的照片，这个是老公的ins头像哦</h2>
+:::
+:::
+
+<div class="piclist">
+
+::: picbox
+::: {.box .front}
+<img src="image/baoji/7.jpg"/>
+:::
+
+::: {.box .back}
+<h2>老婆焦急的等待老公出门</h2>
+:::
+:::
+
+<div class="piclist">
+
+::: picbox
+::: {.box .front}
+<img src="image/baoji/8.jpg"/>
+:::
+
+::: {.box .back}
+<h2>宝鸡的月满大江，属实不太行，还把老公烫伤了</h2>
+:::
+:::
+
+<div class="piclist">
+
+::: picbox
+::: {.box .front}
+<img src="image/baoji/9.jpg"/>
+:::
+
+::: {.box .back}
+<h2>酒店旁边的人人乐旗下超市，我们用老公的人人乐卡消费的很快乐</h2>
+:::
+:::
+
+<div class="piclist">
+
+::: picbox
+::: {.box .front}
+<img src="image/baoji/10.jpg"/>
+:::
+
+::: {.box .back}
+<h2>老婆在我们在一起两个月的时候买的花花哦！横向对比一下，老婆现在表现极差！</h2>
+:::
+:::
+
+<div class="piclist">
+
+::: picbox
+::: {.box .front}
+<img src="image/baoji/11.jpg"/>
+:::
+
+::: {.box .back}
+<h2>老婆在咸阳某彩天某要拍一张小子弹</h2>
+:::
+:::
+
+<div class="piclist">
+
+::: picbox
+::: {.box .front}
+<img src="image/baoji/12.jpg"/>
+:::
+
+::: {.box .back}
+<h2>和老婆在咸阳吃的一家很好吃的烤肉！</h2>
+:::
+:::
+
+::: piclist
+::: picbox
+::: {.box .front}
+<img src="image/baoji/14.jpg"/>
+:::
+
+::: {.box .back}
+<h2>咸阳闷墩儿火锅，yyds！</h2>
+:::
+:::
+
+::: piclist
+::: picbox
+::: {.box .front}
+<img src="image/baoji/13.jpg"/>
+:::
+
+::: {.box .back}
+<h2>和老婆吃完随便走走，然后就走到景点了</h2>
+:::
+:::
+:::
+:::

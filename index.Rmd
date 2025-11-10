@@ -1,0 +1,44 @@
+---
+output: 
+  html_document
+---
+<head>
+     <meta charset="UTF-8">
+     <title>图片翻转</title>
+     <link rel="stylesheet" href="图片翻转.css">
+ </head>
+ 
+<center> <h1>老婆SZY的专属生日小网站</h1> </center>
+ 
+
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="https://media4.giphy.com/media/YrZECW1GgBkqat6F0B/giphy.gif?cid=790b7611561c4a91836c9a51020a3e05f7d6f673b13a818b&rid=giphy.gif&ct=g" alt=""></div>
+   <div class="box back"><h2>老婆生日快乐！</h2></div>
+  </div>
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/cake.gif" alt=""></div>
+   <div class="box back"><h2>宝宝22岁啦</h2></div>
+  </div>
+ </div>
+ </div>
+
+ 
+## Links
+
+[西安老婆](xian.html)
+
+[宝鸡/咸阳老婆](baoji.html)
+
+[成都老婆](chengdu.html)
+
+[杭州老婆](hangzhou.html)
+
+[海南老婆](hainan.html)
+
+[广州老婆](guangzhou.html)
+
+[微信上的老婆](wechat.html)
+
+[老婆生日快乐！](letter.html)

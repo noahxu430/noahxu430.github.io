@@ -1,0 +1,95 @@
+---
+title: "老婆和老公的第二站海南"
+output: 
+  html_document
+---
+
+<head>
+     <meta charset="UTF-8">
+     <title>图片翻转</title>
+     <link rel="stylesheet" href="图片翻转.css">
+ </head>
+ 
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hainan/1.jpg" alt=""></div>
+   <div class="box back"><h2>老婆和老公到海南啦，租到了老婆的梦中情车</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hainan/2.jpg" alt=""></div>
+   <div class="box back"><h2>我们开车到酒店，被牛牛们拦住啦</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hainan/3.jpg" alt=""></div>
+   <div class="box back"><h2>豪华的海上院子，老婆说每一分钟心都在滴血</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hainan/4.jpg" alt=""></div>
+   <div class="box back"><h2>老公开车去老婆说的景点，老婆在路上拍照录像</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hainan/5.jpg" alt=""></div>
+   <div class="box back"><h2>晚上回海上院子，老婆和老公在沙滩边拍照</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hainan/6.jpg" alt=""></div>
+   <div class="box back"><h2>我们到琼海啦，西京雅居里面蟑螂都饿死啦，老婆很害怕</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hainan/7.jpg" alt=""></div>
+   <div class="box back"><h2>后来老婆和老公找了琼海附近另外一家酒店，海边拍照留念！</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hainan/8.jpg" alt=""></div>
+   <div class="box back"><h2>在酒店阳台拍的照片哦</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hainan/9.jpg" alt=""></div>
+   <div class="box back"><h2>老婆在酒店下面的海边玩耍，让老公拍的背身照片，老婆最后发了朋友圈</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hainan/10.jpg" alt=""></div>
+   <div class="box back"><h2>在官塘假日酒店，老婆看到美丽的景色拍照留念</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hainan/11.jpg" alt=""></div>
+   <div class="box back"><h2>老婆元气满满的爬山！！</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hainan/12.jpg" alt=""></div>
+   <div class="box back"><h2>在山上可以看到我们酒店</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hainan/13.jpg" alt=""></div>
+   <div class="box back"><h2>老婆和老公坐缆车下山</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hainan/14.jpg" alt=""></div>
+   <div class="box back"><h2>晚上和老婆泡温泉，老婆还要拍一张泡温泉的侧颜</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hainan/15.jpg" alt=""></div>
+   <div class="box back"><h2>老婆在可爱的nia nia nia</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/hainan/16.jpg" alt=""></div>
+   <div class="box back"><h2>最后老婆在碧桂园希尔顿把ipad弄碎了，急着催老公去免税店修</h2></div>
+  </div>
+ </div>
+ </div> 
+ 

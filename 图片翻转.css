@@ -1,0 +1,80 @@
+/* 全局重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #dfeaf0;
+  font-family: "Microsoft YaHei", sans-serif;
+}
+
+/* 图片样式 */
+img {
+  width: 200px;
+  height: 250px;
+  display: block;
+  border-radius: 6px;
+}
+
+/* 外层容器 */
+.piclist {
+  width: 1200px;
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* 单个图片盒子 */
+.picbox {
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+  transform-origin: center;
+  cursor: pointer;
+}
+
+/* 悬停翻转效果 */
+.picbox:hover {
+  transform: rotateY(180deg);
+}
+
+/* 前后面通用样式 */
+.box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  border-radius: 6px;
+}
+
+/* 前面 */
+.front {
+  border: 2px solid #ddd;
+  box-shadow: 5px 5px 10px #aaa;
+  background-color: white;
+  z-index: 2;
+}
+
+/* 背面 */
+.back {
+  transform: rotateY(180deg);
+  background: linear-gradient(135deg, #75d197, #5fb285);
+  border: 2px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.4;
+  z-index: 1;
+}
