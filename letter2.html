@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>letter2.knit</title>
+
+<script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    中国
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="xian.html">西安</a>
+    </li>
+    <li>
+      <a href="baoji.html">宝鸡/咸阳</a>
+    </li>
+    <li>
+      <a href="chengdu.html">成都</a>
+    </li>
+    <li>
+      <a href="hangzhou.html">杭州</a>
+    </li>
+    <li>
+      <a href="hainan.html">海南</a>
+    </li>
+    <li>
+      <a href="guangzhou.html">广州</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    美国
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="2022.html">2022暑假</a>
+    </li>
+    <li>
+      <a href="2022h.html">2022寒假</a>
+    </li>
+    <li>
+      <a href="2023.html">2023上半年</a>
+    </li>
+    <li>
+      <a href="2023x.html">2023下半年</a>
+    </li>
+    <li>
+      <a href="2024.html">2024上半年</a>
+    </li>
+    <li>
+      <a href="2024x.html">2024下半年</a>
+    </li>
+    <li>
+      <a href="2025.html">2025圣诞节</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="wechat.html">
+    <span class="fa fa-weixin fa-lg"></span>
+     
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-birthday-cake fa-lg"></span>
+     
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="letter.html">老婆22岁</a>
+    </li>
+    <li>
+      <a href="letter2.html">老婆26岁</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="kiss.html">
+    <span class="fa fa-kiss-beam fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<head>
+<meta charset="UTF-8">
+<title>
+图片翻转
+</title>
+<link rel="stylesheet" href="图片翻转.css">
+</head>
+<div id="老婆亲启" class="section level3">
+<h3>老婆亲启</h3>
+<p>     
+老公又来咯，老婆生日快乐哦，老婆非要让老公手写letter，老公很不擅长写，但是屈服于老婆的淫威就只能写了。老公就是想到啥写啥哦，表达能力堪忧。</p>
+<p>     
+转眼老婆已经26岁了，这个网站还是4年前老婆22岁做的，已经过去4年了哦，我们也在一起快要5年啦！</p>
+<p>     
+首先最重要的就是结婚哦，老婆放心哦，老公只想和老婆结婚，老婆貌似还没有准备好，老公的老婆本计划也还在积攒中，老公是想要靠自己给老婆买喜欢的求婚戒指，这样是最有意义的，可惜现实很残酷，老公还想尽可能支持老婆的开心生活，米米不足以同时满足两点，老公觉得老婆开心更重要，现在是老婆一生中最美好的时候，也是能最好的体验生活的时候，老公希望在这个时间段可以多创造一些回忆，老婆要多享受当下，老婆遇到喜欢的能让老婆开心的东西就拿下。至于老婆本，早日结婚也很重要，如果实在攒不够就只能请求支援了。老婆前两天问了老婆本情况，但是这次玩完估计就又要重新开始了，老婆问的太频繁了，以后要禁止老婆询问。</p>
+<p>     
+还有一个重要的事情，老婆不再有以前那么快乐了，虽然老婆长大了，但是感觉还是老婆进入了byd之后被气的。所以老婆需要快快找到别的工作，早点离开byd，老公需要快乐老婆。老婆在面试的时候也暴漏了心态不好的问题。老公也不知道怎么能让老婆心态更好一些，其实机会总是有的，老婆只需要多多面试，总有一个适合老婆的工作，希望老婆不要过于看重某个机会，老公觉得老婆在面试几次心态就变好了，但是老婆可能没有机会锻炼心态了，因为老公认为老婆可能下次面试就成功了，不要老婆的是傻子，要是老公一面就立刻要老婆，免去老婆的二面。</p>
+<p>     
+上次老婆22岁时说老婆的吃饭问题，老婆完全没有任何改进。老婆经常为了工作选择不吃饭，平常也没有胃口。老公现在看来吃辣的什么的也还好啦，主要是每顿饭按时吃，老婆每天到点了就吃点，生活规律很重要哦，老婆还经常失眠，都是因为生活不规律，导致老婆胃不好，心态不好。以后希望老婆每天按时吃饭，每天运动运动，按时睡觉，才能有健康老婆。健康老婆以后就不需要听故事就能睡着咯，good。老婆现在还需要买褪黑素，老婆失眠的次数太多了，如果没有褪黑素的话对身体伤害更大，非常不好。老婆还要向老公学习，不喝咖啡。如果老婆生活规律，按时睡觉就完全不需要咖啡哦，依赖咖啡比依赖褪黑素可怕多了。虽然老婆和老公在一块不会失眠，但是没有老公的时候就得注意，再坚持坚持。等我们熬过去老公很确定以后生活会很美好，期待和老婆到处看房子，到处纠结选房子的那一天。</p>
+<p>     
+老公大概就想到这么多，反正每天还要和老婆call，再想到啥就和老婆call里说，总之老婆生日快乐哦，还有一个月就能见到老婆了，开心，等老公找时间回国签证，然后我们去日本丸，老公正在攒日本华尔道夫的积分。老婆最重要的就是身体健康！然后还要天天开心！老公非常清楚老婆的优秀，也知道老婆一定会比别人压力大，也不会当全职宝宝。但是还是希望老婆不要有太大压力，要相信自己，而且老婆随时可以当全职宝宝，老公完全可以handle。</p>
+<p>     
+老公重新学习了一下，更新了并升级了老婆专属网站。老婆现在可以无障碍浏览了！老婆开冲了！</p>
+<p>最爱老婆的老公</p>
+<div class="piclist">
+<div class="picbox">
+<div class="box front">
+<h2>
+点击彩蛋: 老婆来啦！！！
+</h2>
+</div>
+<div class="box back">
+<img src="image/lizi1.jpg" alt="">
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

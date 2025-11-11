@@ -9,7 +9,10 @@ output:
  </head>
  
 <center> <h1>老婆SZY的专属生日小网站</h1> </center>
- 
+<br><br><br>
+<h4>老婆生日小网站更新啦！持续维护中</h4>
+<br><br>
+[bug反馈/提出建议](bug.html)
 
 <div class="piclist">
  <div class="picbox">
@@ -21,24 +24,10 @@ output:
   <div class="box front"><img src="image/cake.gif" alt=""></div>
    <div class="box back"><h2>宝宝22岁啦</h2></div>
   </div>
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW1qNHVkcXRobHJ0cjFrZWZiMzBlcGQ4eWhzMmg1M3Rua3M4NHRncCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2ozIP1OKE6cki3cKzA/giphy.gif" alt=""></div>
+   <div class="box back"><h2>老婆宝宝一转眼就26岁咯</h2></div>
+  </div>
  </div>
  </div>
-
- 
-## Links
-
-[西安老婆](xian.html)
-
-[宝鸡/咸阳老婆](baoji.html)
-
-[成都老婆](chengdu.html)
-
-[杭州老婆](hangzhou.html)
-
-[海南老婆](hainan.html)
-
-[广州老婆](guangzhou.html)
-
-[微信上的老婆](wechat.html)
-
-[老婆生日快乐！](letter.html)

@@ -1,0 +1,79 @@
+---
+title: "老婆2023又来美国了"
+output:
+  html_document:
+    df_print: default
+    css: "图片翻转.css"
+---
+
+
+
+<head>
+     <meta charset="UTF-8">
+     <title>图片翻转</title>
+     <link rel="stylesheet" href="图片翻转.css">
+ </head>
+ 
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023/1.jpg" alt=""></div>
+   <div class="box back"><h2>老婆在bestbuy非要和鱼拍照</h2></div>
+  </div>
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023/2.jpg" alt=""></div>
+   <div class="box back"><h2>我们这会去了亚特兰大丸，老婆在酒店拧瓷</h2></div>
+  </div>
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023/3.jpg" alt=""></div>
+   <div class="box back"><h2>我们好像在bar有credit，老婆决定晚上去喝一杯</h2></div>
+  </div>
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023/4.jpg" alt=""></div>
+   <div class="box back"><h2>老婆喝完了</h2></div>
+  </div> 
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023/5.jpg" alt=""></div>
+   <div class="box back"><h2>老婆肚皮都红透了，小孩儿禁止饮酒</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023/6.jpg" alt=""></div>
+   <div class="box back"><h2>我们去逛了可口可乐总部</h2></div>
+  </div>  
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023/7.jpg" alt=""></div>
+   <div class="box back"><h2>老婆在水族馆</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023/8.jpg" alt=""></div>
+   <div class="box back"><h2>在水族馆让人画了我们的画像</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023/9.jpg" alt=""></div>
+   <div class="box back"><h2>回纽约机场了，老公让老婆站在这个洞洞后面拍照</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023/10.jpg" alt=""></div>
+   <div class="box back"><h2>老婆新增加了大崽崽和蓝龙，现在所有崽崽都被遗忘了</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023/11.jpg" alt=""></div>
+   <div class="box back"><h2>老婆在154一直沉迷switch</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023/12.jpg" alt=""></div>
+   <div class="box back"><h2>老婆又要离开了，很不舍</h2></div>
+  </div>
+ </div>
+ </div> 
+ 

@@ -1,0 +1,69 @@
+---
+title: "老婆寒假又来啦"
+output:
+  html_document:
+    df_print: default
+    css: "图片翻转.css"
+---
+
+
+
+<head>
+     <meta charset="UTF-8">
+     <title>图片翻转</title>
+     <link rel="stylesheet" href="图片翻转.css">
+ </head>
+ 
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022h/1.jpg" alt=""></div>
+   <div class="box back"><h2>老婆在此降临，手上已经拿了lululemon，不知道买了啥</h2></div>
+  </div>
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022h/2.jpg" alt=""></div>
+   <div class="box back"><h2>老婆在FAO和npc合照，这会已经有大鹅了</h2></div>
+  </div>
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022h/3.jpg" alt=""></div>
+   <div class="box back"><h2>老婆再次降临154 Haven，在呼呼</h2></div>
+  </div>
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022h/4.jpg" alt=""></div>
+   <div class="box back"><h2>又去佛罗里达了，这次去迈阿密哦，在飞机上也要自拍</h2></div>
+  </div> 
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022h/5.jpg" alt=""></div>
+   <div class="box back"><h2>老婆把崽崽也带上飞机了，现在已经把它遗忘</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022h/6.jpg" alt=""></div>
+   <div class="box back"><h2>老婆在迈阿密酒店拍照</h2></div>
+  </div>  
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022h/7.jpg" alt=""></div>
+   <div class="box back"><h2>我们在迈阿密吃的牛排，老婆全吃了还吃了老公剩下的</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022h/8.jpg" alt=""></div>
+   <div class="box back"><h2>老婆在抹了白泥自拍</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022h/9.jpg" alt=""></div>
+   <div class="box back"><h2>老婆迈阿密也要逛lulu，当时还很火，老婆在跟风</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022h/10.jpg" alt=""></div>
+   <div class="box back"><h2>老婆买了lulu以后衣服不离身了</h2></div>
+  </div>
+ </div>
+ </div> 
+ 

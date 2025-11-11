@@ -1,0 +1,69 @@
+---
+title: "2024上半年老婆收到了阳光offer，来度假啦"
+output:
+  html_document:
+    df_print: default
+    css: "图片翻转.css"
+---
+
+
+
+<head>
+     <meta charset="UTF-8">
+     <title>图片翻转</title>
+     <link rel="stylesheet" href="图片翻转.css">
+ </head>
+ 
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024/1.jpg" alt=""></div>
+   <div class="box back"><h2>老婆刚来很开心，又在飞机上自拍了，戴着老婆的新耳机</h2></div>
+  </div>
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024/2.jpg" alt=""></div>
+   <div class="box back"><h2>坐飞机抵达Tampa，没有特斯拉了，老婆在车上自拍</h2></div>
+  </div>
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024/3.jpg" alt=""></div>
+   <div class="box back"><h2>老婆在车上疯狂自拍，看起来很兴奋，要度假啦</h2></div>
+  </div>
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024/4.jpg" alt=""></div>
+   <div class="box back"><h2>老公带老婆去了Tampa的游乐场丸</h2></div>
+  </div> 
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024/5.jpg" alt=""></div>
+   <div class="box back"><h2>我们在Tampa来划船啦，带老婆丸透明船，看海牛</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024/6.jpg" alt=""></div>
+   <div class="box back"><h2>老婆要来白沙滩拍日落，还要疯狂出片</h2></div>
+  </div>  
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024/7.jpg" alt=""></div>
+   <div class="box back"><h2>老婆最后选择这张照片发朋友圈</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024/8.jpg" alt=""></div>
+   <div class="box back"><h2>短暂的假期结束了，老婆回到了home，老婆最后一次呆在home</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024/9.jpg" alt=""></div>
+   <div class="box back"><h2>老婆不知道为啥又在偷拍老公开车</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024/10.jpg" alt=""></div>
+   <div class="box back"><h2>老婆在机场舍不得走，很难过</h2></div>
+  </div>
+ </div>
+ </div> 
+ 

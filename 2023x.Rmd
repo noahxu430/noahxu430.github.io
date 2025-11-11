@@ -1,0 +1,139 @@
+---
+title: "下半年老公有了home，老婆又来啦"
+output:
+  html_document:
+    df_print: default
+    css: "图片翻转.css"
+---
+
+
+
+<head>
+     <meta charset="UTF-8">
+     <title>图片翻转</title>
+     <link rel="stylesheet" href="图片翻转.css">
+ </head>
+ 
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/1.jpg" alt=""></div>
+   <div class="box back"><h2>2023老公毕业啦，搬来了Allure 258，老婆的home</h2></div>
+  </div>
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/2.jpg" alt=""></div>
+   <div class="box back"><h2>Allure 258的外面，老婆怀念吗</h2></div>
+  </div>
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/3.jpg" alt=""></div>
+   <div class="box back"><h2>老公购入了第一代SZY，带我们驰骋新泽西+美东，现在已经没有咯</h2></div>
+  </div>
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/4.jpg" alt=""></div>
+   <div class="box back"><h2>SZY车牌抵达，正式变身SZY</h2></div>
+  </div> 
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/5.jpg" alt=""></div>
+   <div class="box back"><h2>老婆第一次来老公的home，开始探索新泽西</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/6.jpg" alt=""></div>
+   <div class="box back"><h2>老婆发现好吃的麻辣空间，粉丝鸭血yyds但是绝版了</h2></div>
+  </div>  
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/7.jpg" alt=""></div>
+   <div class="box back"><h2>老婆挑选做饭的西红柿</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/8.jpg" alt=""></div>
+   <div class="box back"><h2>老婆在home要露一手，决定来个意面，正在炒肉末</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/9.jpg" alt=""></div>
+   <div class="box back"><h2>老公在拍老婆化妆，老婆很不耐烦</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/10.jpg" alt=""></div>
+   <div class="box back"><h2>这里貌似是我们去山里骑轨道自行车的地方，老婆完全没出力</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/11.jpg" alt=""></div>
+   <div class="box back"><h2>老婆嫌弃老公的舔舔</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/12.jpg" alt=""></div>
+   <div class="box back"><h2>老婆要在path上合照，老公疯狂按快门，老婆看起来不是很happy</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/13.jpg" alt=""></div>
+   <div class="box back"><h2>老婆对老公很不满意</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/14.jpg" alt=""></div>
+   <div class="box back"><h2>老婆喜欢Hoboken的河边，开始拍照</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/15.jpg" alt=""></div>
+   <div class="box back"><h2>老公抓拍到了SZY进入SZY，老婆还截掉了车标发朋友圈</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/16.jpg" alt=""></div>
+   <div class="box back"><h2>老婆做的开背虾，好次</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/17.jpg" alt=""></div>
+   <div class="box back"><h2>我们自驾去DC啦，老婆在路上疯狂拍照开演唱会，对老公拍照不满意</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/18.jpg" alt=""></div>
+   <div class="box back"><h2>SZY还带我们去了匹兹堡和大瀑布，老公的手机里没有匹兹堡，老婆不喜欢匹兹堡</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/19.jpg" alt=""></div>
+   <div class="box back"><h2>老婆很生气，老婆也想上哈佛</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/20.jpg" alt=""></div>
+   <div class="box back"><h2>老婆在波士顿观景台又生气了，嫌老公不好好拍照</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/21.jpg" alt=""></div>
+   <div class="box back"><h2>老婆专门去拍日落的钟</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/22.jpg" alt=""></div>
+   <div class="box back"><h2>老婆回纽约还要专门去拍这个圣诞树</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/23.jpg" alt=""></div>
+   <div class="box back"><h2>老婆还专门找了个有树的酒店，尝试出片</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2023x/24.jpg" alt=""></div>
+   <div class="box back"><h2>老婆在家成功拼完了城堡！但是老公随后搬家都很麻烦了</h2></div>
+  </div>
+ </div>
+ </div> 
+ 

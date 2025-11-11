@@ -1,0 +1,89 @@
+---
+title: "老婆初到美国"
+output:
+  html_document:
+    df_print: default
+    css: "图片翻转.css"
+---
+
+
+
+<head>
+     <meta charset="UTF-8">
+     <title>图片翻转</title>
+     <link rel="stylesheet" href="图片翻转.css">
+ </head>
+ 
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022/1.jpg" alt=""></div>
+   <div class="box back"><h2>老婆降临LAX机场，先来张自拍</h2></div>
+  </div>
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022/2.jpg" alt=""></div>
+   <div class="box back"><h2>老婆随后累了，老公在扣老婆的头皮屑</h2></div>
+  </div>
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022/3.jpg" alt=""></div>
+   <div class="box back"><h2>老婆穿老公的衣服开躺了，我们等了一晚上第二天转机，我们是流浪汉</h2></div>
+  </div>
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022/4.jpg" alt=""></div>
+   <div class="box back"><h2>老婆首次降临迪士尼，在等阿凡达</h2></div>
+  </div> 
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022/5.jpg" alt=""></div>
+   <div class="box back"><h2>老婆在animal kingdom的游客照</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022/6.jpg" alt=""></div>
+   <div class="box back"><h2>老婆在逛Disney商店，戴上了鸭鸭帽</h2></div>
+  </div>  
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022/7.jpg" alt=""></div>
+   <div class="box back"><h2>我们找路人拍照，看起来玩的很憔悴+随意</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022/8.jpg" alt=""></div>
+   <div class="box back"><h2>路过的鸭鸭和老婆招手，老婆很兴奋</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022/9.jpg" alt=""></div>
+   <div class="box back"><h2>老婆在环球影城穿哈利波特</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022/10.jpg" alt=""></div>
+   <div class="box back"><h2>又找人合影了，依旧憔悴+随意</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022/11.jpg" alt=""></div>
+   <div class="box back"><h2>老婆降临154 Haven，床单被套都在洗，无法阻止老婆在床上丸switch</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022/12.jpg" alt=""></div>
+   <div class="box back"><h2>老婆打完疫苗发烧了，看起来要死掉了</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022/13.jpg" alt=""></div>
+   <div class="box back"><h2>在纽约第一次吃一兰，感觉不如日本香港好吃</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2022/14.jpg" alt=""></div>
+   <div class="box back"><h2>老婆要走了，我们坐火车去纽瓦克机场，老婆在拍照留念</h2></div>
+  </div>
+ </div>
+ </div> 
+ 

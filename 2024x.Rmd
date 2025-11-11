@@ -1,0 +1,119 @@
+---
+title: "2024下半年老公找到工作了，生活开始变好啦"
+output:
+  html_document:
+    df_print: default
+    css: "图片翻转.css"
+---
+
+
+
+<head>
+     <meta charset="UTF-8">
+     <title>图片翻转</title>
+     <link rel="stylesheet" href="图片翻转.css">
+ </head>
+ 
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024x/1.jpg" alt=""></div>
+   <div class="box back"><h2>虽然生活变好了，但是老婆失去了home，来到了home睡大觉</h2></div>
+  </div>
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024x/2.jpg" alt=""></div>
+   <div class="box back"><h2>老婆在SZY上自拍，老婆最后一次见SZY</h2></div>
+  </div>
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024x/3.jpg" alt=""></div>
+   <div class="box back"><h2>老婆每次必来的麻辣空间</h2></div>
+  </div>
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024x/4.jpg" alt=""></div>
+   <div class="box back"><h2>老公股票赚钱了，带老婆体验小资生活，品尝沃夫冈</h2></div>
+  </div> 
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024x/5.jpg" alt=""></div>
+   <div class="box back"><h2>老公也买了羽绒服，跟老婆出来丸不怕冷了</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024x/6.jpg" alt=""></div>
+   <div class="box back"><h2>坐飞机去LA啦，老婆这会没有在飞机上面自拍，此为老公所拍</h2></div>
+  </div>  
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024x/7.jpg" alt=""></div>
+   <div class="box back"><h2>在加州又没有车租了，选择了genesis</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024x/8.jpg" alt=""></div>
+   <div class="box back"><h2>老婆非要来吃螺狮粉，不知道为啥笑得很开心</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024x/9.jpg" alt=""></div>
+   <div class="box back"><h2>老婆在星光大道，但是老婆觉得这一天很不出片，不满意</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024x/10.jpg" alt=""></div>
+   <div class="box back"><h2>老公带老婆来看好莱坞，老婆想住在这里的山上</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024x/11.jpg" alt=""></div>
+   <div class="box back"><h2>老婆来这个观景台拍照</h2></div>
+  </div>
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024x/12.jpg" alt=""></div>
+   <div class="box back"><h2>晚上到处找，找到一家西班牙海鲜饭，感觉一般</h2></div>
+  </div>
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024x/13.jpg" alt=""></div>
+   <div class="box back"><h2>带老婆吃加州的Texas roadhouse，老婆又生气了</h2></div>
+  </div>
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024x/14.jpg" alt=""></div>
+   <div class="box back"><h2>这会中午吃的和牛火锅，还不知道晚上事情的严重性</h2></div>
+  </div> 
+ <div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024x/15.jpg" alt=""></div>
+   <div class="box back"><h2>这会在天文台，老婆还很健康，还贴了starface</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024x/16.jpg" alt=""></div>
+   <div class="box back"><h2>吃完川菜都歇菜了，好不容易恢复一点就去DC住Waldorf啦</h2></div>
+  </div>  
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024x/17.jpg" alt=""></div>
+   <div class="box back"><h2>老婆很难受但是坚持化妆，今天势必出片</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024x/18.jpg" alt=""></div>
+   <div class="box back"><h2>带老婆去吃老公喜欢的medium rare，可惜我们都不舒服，吃东西就想吐</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024x/19.jpg" alt=""></div>
+   <div class="box back"><h2>老婆带病看跨年烟花</h2></div>
+  </div>
+<div class="piclist">
+ <div class="picbox">
+  <div class="box front"><img src="image/2024x/20.jpg" alt=""></div>
+   <div class="box back"><h2>离开DC老婆要去吃一家粉，老婆还是吃不下东西，老公已经恢复了在疯狂吃</h2></div>
+  </div>
+ </div>
+ </div> 
+ 
